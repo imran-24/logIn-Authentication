@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".LogOut">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/homenaje"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:text="Welcome to HomePage"
+        android:letterSpacing=".1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/homenaje"
+            android:textSize="20sp"
+            android:layout_marginVertical="20dp"
+            android:letterSpacing=".1"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/log_out_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/homenaje"
+            android:onClick="toLogOut"
+            android:textStyle="bold"
+            android:letterSpacing=".1"
+            android:text="Log Out"/>
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
